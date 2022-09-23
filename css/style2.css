@@ -1,0 +1,46 @@
+/* Created by: Ashley Monaghan
+* Created on: Sept 2022
+* This CSS file defines the style for index2.html ICS2O-Unit1-04-HTML-CSS
+*/
+
+
+body {
+  background-color: #7197d6;
+  }
+
+h1 {
+  background-color: rgb(208, 98, 193);
+  color: hsl(239, 50%, 47%);
+  padding: 40px;
+  text-align: center;
+  }
+
+p {
+  background-color: #e19898;
+  }
+
+ul {
+  color: beige;
+  }
+
+ul li::before {
+  content: "✅";
+  }
+
+table {
+  border: solid thin;
+  }
+
+th {
+  height: 2rem;
+  background: #f49a9a;
+  border: 1px solid white;
+  text-align: left;
+  }
+
+td {
+  height: 2rem;
+  background: #b6c8ce;
+  border: 1px solid black;
+  text-align: center;
+  }
